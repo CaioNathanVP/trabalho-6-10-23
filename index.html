@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="modal">
+    <div id="conteudoModal">
+        <img class="img-modal" src="curriculo.png" alt="meu curriculo">
+    </div>
+    <br>
+    <div class="texto descricao">
+        <div class="titulos">
+            <h5>Ai está!</h5>
+            Como pode ver, não é super recheado, porem eu vejo que há qualidade nas informações dele, o que eu acho que é bom :D
+        </div>
+    </div>
+    <br>
+    <button id="submit" onclick="closeModal()">fechar</button>
+</div>
+<div id="overlay"></div>
+    <br>
+        <img id="fotodeperfil" src="eu.jpg" alt="Caio Nathan">
+    </br><br>
+        <div class="container">
+            <div class="content">
+                <h1 class="titulos">Olá! Me chamo Caio Nathan </h1>
+                <p>Bem eu não sei ao certo o que te traz aqui, mas já você tem tempo a perder, vamos tentar saber um pouco sobre a minha vida.</p>
+                    <H3 class="titulos">De onde eu sou?</H3> 
+                    Pois bem, tenho atualmente 19 anos no dia que estou fazendo essa landing Page, e o dia é 6/10/2023, se quiser saber minha data de nascimento, faça as contas aí. Vim para Vila Velha, ES, para conseguir estudar, venho de um lugar bem isolado de Minas Gerais, no qual ninguém conhece o nome: São Sebastião do Maranhão. Uma cidade pacata, poucos habitantes e a tecnologia do 4G chegou recentemente. 
+                    <h3 class="titulos">Minha vida acadêmica?</h3>
+                    Minha vida acadêmica não é muito completa, por enquanto, tenho somente o básico, ensino médio completo, e atualmente cursando Ciências da Computação na universidade Vila Velha. Na minha faculdade as matérias são: 
+                    <li>Construção de software: desenvolvo sites como esse</li>
+                    <li>Desenvolvimento de banco de dados I: aprendo cada componente de um banco de dados e como cria-lo</li> 
+                    <li>Gestão de pessoas: aprendo a ser um bom chefe e como os trabalhadores funcionam </li>
+                    <li>UX: eu aprendo a criar ferramentas e sites para o usuário da maneira mais eficiente possível, que resolva o problema.</li>  
+                    <li>Fundamentos da tecnologia da computação: entendo como funciona um computador, não so o hardware </li>
+                    <li>Design de games: aprendo o conceito de criar jogos </li>
+                    <li>Estrutura de computadores: entendo como o hardware do computador funciona e aprendo a criar rede de computadores</li>
+                    E sinceramente, to quase infartando de estudar e fazer trabalho
+                    <h3 class="titulos">profissional?</h3>
+                    Minha vida profissional é meio estranha, sempre trabalhei desde muito novo de maneira informal, como na minha cidade quase ninguém assina carteira de trabalho, nem me preocupei com isso, mas agora tudo que eu já trabalhei? Vou listar:
+                    <li>Trabalhei vendendo comida </li>
+                    <li>Manutenção de computadores</li>
+                    <li>Instrutor de violão </li>
+                    <li>Professor particular</li>
+                    <li>Funcionário de contabilida</li>
+                    <li>Já tive minha marcenaria</li>
+                    <li>E atualmente funcionário d</li>
+                    Quero trabalhar futuramente com desenvolvimento de jogos, mais especificamente no Backend 
+                     E já fui um pequeno e sonhador Streamer: olha ai! </p>
+            </div>
+        </div>
+        <div>
+            <img id="meme" src="meme.png" alt="É pouco mas é trabalho honesto">
+        </div>
+        <div>
+            <video controls id="video" src="dravando.mp4"></video>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <div class="content">
+                <h3 class="titulos">Está aí meu currículo se você leitor, tiver interesse em me contratar pra algo que eu ganhe uns 8000 mil por dia. </h3>
+                <p>(clique no pikachu) <br><img class="foto" onclick="openModal()" src="pikachu.jpg" alt="pikachu"></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <H3 class="titulos">E minha vida pessoal? O que eu gosto de fazer?</H3>
+                <p>
+                    Nossa você leu tudo até aqui embaixo! Ou você é um agente do FBI querendo saber tudo da minha vida ou é um stalker safado, mas continuando...<br>
+                    Eu gosto Sempre de fazer coisas novas, por isso sei fazer de tudo um pouco, 
+                    Nessa listinha básica aqui ta tudo que eu gosto de fazer:
+                </p>
+                <li>Tocar guitarra</li> 
+                <li>Treinar jiu-jitsu </li>
+                <li>Jogar truco </li>
+                <li>Jogar videogame (jogo quase de tudo, mas o que mais me agrada é MOBA e RPG) </li>
+                <li>Beber um bom whisky </li>
+                <li>Andar de skate </li>
+                <li>Resolver puzzles aleatórios (cubo rubik, quebra cabeças, paciência, etc) </li>
+                <li>Aprender algum instrumento novo (atualmente estou aprendendo ukulele, e bateria)</li>
+                <li>Desenhar </li>
+                Mas o esporte que eu tenho mais compaixão é musculação<br>
+                E por fim, escutar música, principalmente phonk, não sabe o que é phonk? Escute e mude seu gosto musical agora mesmo: 
+                <audio id="player" controls>
+                    <source src="VUK VUK.mp3" type="audio/x-mp3">
+                </audio>
+            </div>
+        <div>
+        </div>
+        </div>
+            <div class="container">
+                <div class="content">
+                    <h3 class="titulos">Agora, interessou nesse site, e quer ter um desse pra você? </h3>
+                    <p>
+                        Eu posso fazer isso pra você, mas claro, veja a minha tabela de preços
+                    </p>
+                    <div id="tabela">
+                        <table id="table" border="1">
+                            <tr>
+                                <th>Modelo</th>
+                                <th>feita com:</th>
+                                <th>Preço</th>
+                            </tr>
+                            <tr>
+                                <th>Estática</th>
+                                <th>HTMl e CSS</th>
+                                <th>R$500</th>
+                            </tr>
+                            <tr>
+                                <th>Dinâmica</th>
+                                <th>HTML, CSS e JS</th>
+                                <th>R$900</th>
+                            </tr>
+                            <tr>
+                                <th>Bem elaborada</th>
+                                <th>qualquer liguagem <br>que seja possivel</th>
+                                <th>R$3000</th>
+                            </tr>
+                        </table>
+                        <P>
+                            Para entrar em contato comigo, voce pode prencher o formulario que irá aparecer ao clicar no botão "prencher formulario", ou ir em minhas redes sociais! 
+                        </P>
+                        <div>
+                            <a href="https://www.instagram.com/caionathan_v/">
+                                <img class="logo" src="logoinsta.png" alt="instagram" >
+                            </a>
+                            <a href="https://discord.com/channels/@me">
+                                <img class="logo" src="logodisc.png" alt="discord" onclick="">
+                            </a>
+                            <a href="https://github.com/CaioNathanVP">
+                                <img class="logo" src="logogit.png" alt="github">
+                            </a>
+                            <a href="https://www.twitch.tv/c4aiuhh">
+                                <img class="logo" src="logotwt.png" alt="twitch.tv">
+                            </a>
+                            <div>
+                                <button id="botaoform" onclick="abra()"> responder formulario</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="abra">
+        <div class="box">
+            <form action="" id="formulario">
+                <fieldset>
+                    <legend><b>Formulário de Clientes</b></legend>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" name="nome" id="nome" class="inputuser" required>
+                    <label for="nome" class="labelinput">Nome completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="email" id="email" class="inputuser" required>
+                    <label for="email" class="labelinput">Email</label>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                    <label for="telefone" class="labelinput">telefone</label>
+                    </div>
+                    <br>
+                    <p>Sexo:</p>
+                    <input type="radio" id="feminino" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <br>
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <br>
+                    <input type="radio" id="outro" name="genero" value="outro" required>
+                    <label for="outro">Outro</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="date" name="data_nascimento" id="data_nascimento" class="inputuser" required>
+                    <label for="data_nascimento"><b>Data de Nascimento</b></label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="cidade" id="cidade" class="inputuser" required>
+                    <label for="cidade" class="labelinput">Cidade</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="estado" id="estado" class="inputuser" required>
+                    <label for="estado" class="labelinput">Como posso te ajudar?</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="endereco" id="endereco" class="inputuser" required>
+                    <label for="endereco" class="labelinput">algo mais?</label>
+                    </div>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        </div>
+        </div>
+        
+        <script src="index.js"></script>
+</body>
+</html>
